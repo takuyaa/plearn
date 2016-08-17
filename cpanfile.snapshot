@@ -13,6 +13,29 @@ DISTRIBUTIONS
     requirements:
       Module::Build 0.3
       Test::More 0
+  CPAN-Meta-2.150005
+    pathname: D/DA/DAGOLDEN/CPAN-Meta-2.150005.tar.gz
+    provides:
+      CPAN::Meta 2.150005
+      CPAN::Meta::Converter 2.150005
+      CPAN::Meta::Feature 2.150005
+      CPAN::Meta::History 2.150005
+      CPAN::Meta::Merge 2.150005
+      CPAN::Meta::Prereqs 2.150005
+      CPAN::Meta::Spec 2.150005
+      CPAN::Meta::Validator 2.150005
+    requirements:
+      CPAN::Meta::Requirements 2.121
+      CPAN::Meta::YAML 0.008
+      Carp 0
+      ExtUtils::MakeMaker 6.17
+      JSON::PP 2.27200
+      Parse::CPAN::Meta 1.4414
+      Scalar::Util 0
+      perl 5.008
+      strict 0
+      version 0.88
+      warnings 0
   Convert-UU-0.5201
     pathname: A/AN/ANDK/Convert-UU-0.5201.tar.gz
     provides:
@@ -45,6 +68,12 @@ DISTRIBUTIONS
       IO::CaptureOutput 1.0801
       Test::More 0.62
       perl 5.00405
+  Devel-PPPort-3.35
+    pathname: W/WO/WOLFSAGE/Devel-PPPort-3.35.tar.gz
+    provides:
+      Devel::PPPort 3.35
+    requirements:
+      ExtUtils::MakeMaker 0
   Digest-SHA1-2.13
     pathname: G/GA/GAAS/Digest-SHA1-2.13.tar.gz
     provides:
@@ -53,6 +82,51 @@ DISTRIBUTIONS
       Digest::base 1.00
       ExtUtils::MakeMaker 0
       perl 5.004
+  ExtUtils-MakeMaker-7.22
+    pathname: B/BI/BINGOS/ExtUtils-MakeMaker-7.22.tar.gz
+    provides:
+      ExtUtils::Command 7.22
+      ExtUtils::Command::MM 7.22
+      ExtUtils::Liblist 7.22
+      ExtUtils::Liblist::Kid 7.22
+      ExtUtils::MM 7.22
+      ExtUtils::MM_AIX 7.22
+      ExtUtils::MM_Any 7.22
+      ExtUtils::MM_BeOS 7.22
+      ExtUtils::MM_Cygwin 7.22
+      ExtUtils::MM_DOS 7.22
+      ExtUtils::MM_Darwin 7.22
+      ExtUtils::MM_MacOS 7.22
+      ExtUtils::MM_NW5 7.22
+      ExtUtils::MM_OS2 7.22
+      ExtUtils::MM_QNX 7.22
+      ExtUtils::MM_UWIN 7.22
+      ExtUtils::MM_Unix 7.22
+      ExtUtils::MM_VMS 7.22
+      ExtUtils::MM_VOS 7.22
+      ExtUtils::MM_Win32 7.22
+      ExtUtils::MM_Win95 7.22
+      ExtUtils::MY 7.22
+      ExtUtils::MakeMaker 7.22
+      ExtUtils::MakeMaker::Config 7.22
+      ExtUtils::MakeMaker::Locale 7.22
+      ExtUtils::MakeMaker::_version 7.22
+      ExtUtils::MakeMaker::charstar 7.22
+      ExtUtils::MakeMaker::version 7.22
+      ExtUtils::MakeMaker::version::regex 7.22
+      ExtUtils::MakeMaker::version::vpp 7.22
+      ExtUtils::Mkbootstrap 7.22
+      ExtUtils::Mksymlists 7.22
+      ExtUtils::testlib 7.22
+      MM 7.22
+      MY 7.22
+    requirements:
+      Data::Dumper 0
+      Encode 0
+      File::Basename 0
+      File::Spec 0.8
+      Pod::Man 0
+      perl 5.006
   File-Map-0.64
     pathname: L/LE/LEONT/File-Map-0.64.tar.gz
     provides:

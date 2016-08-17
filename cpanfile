@@ -3,3 +3,4 @@ requires 'Test::Class';
 requires 'Test::Deep';
 requires 'PDL';
 requires 'PDL::CCS';
+requires 'Text::CSV';
