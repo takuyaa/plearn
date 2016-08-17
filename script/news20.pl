@@ -2,7 +2,6 @@ use strict;
 use warnings;
 use utf8;
 
-use Algorithm::Plearn::Datasets::Iris;
 use Algorithm::Plearn::Datasets::20NewsGroupsBinary;
 use Algorithm::Plearn::Optimization::GD;
 use Algorithm::Plearn::Optimization::SGD;
@@ -20,10 +19,8 @@ my $ITERATION = 1;
 
 
 # Load dataset
-# my $iris    = Algorithm::Plearn::Datasets::Iris->new;
-# my $dataset = $iris->load();
-my $news20 = Algorithm::Plearn::Datasets::20NewsGroupsBinary->new(chunksize => 10);
 # print "loading ...\n";
+my $news20 = Algorithm::Plearn::Datasets::20NewsGroupsBinary->new(chunksize => 10);
 # my $dataset = $news20->load_as_ccs;
 # my $dataset = $news20->load;
 # print "done\n";
@@ -37,7 +34,6 @@ my $news20 = Algorithm::Plearn::Datasets::20NewsGroupsBinary->new(chunksize => 1
 # my ($data, $target) = ($scaled_data, $dataset->{target});
 # my ($data, $target) = _shuffle_dataset($scaled_data, $dataset->{target}); # Shuffle dataset if SGD
 # my ($data, $target) = ($dataset->{data}, $dataset->{target});
-
 
 
 
